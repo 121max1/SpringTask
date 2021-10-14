@@ -32,6 +32,16 @@ public class Client {
         appointments = new ArrayList<>();
     }
 
+    public Client(String fullName, String phoneNumber, String email, String login, String password) {
+        this.fullName  = fullName;
+        this.phoneNumber = phoneNumber;
+        this.email = email;
+        this.login = login;
+        this.password = password;
+        records = new ArrayList<>();
+        appointments = new ArrayList<>();
+    }
+
     public String getFullName() {
         return fullName;
     }

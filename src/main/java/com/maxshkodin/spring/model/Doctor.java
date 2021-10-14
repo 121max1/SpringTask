@@ -31,6 +31,15 @@ public class Doctor {
         this.speciality = speciality;
     }
 
+    public Doctor(String fullName, String phoneNumber, String email, String login, String password, Speciality speciality) {
+        this.fullName = fullName;
+        this.phoneNumber = phoneNumber;
+        this.email = email;
+        this.login = login;
+        this.password = password;
+        this.speciality = speciality;
+    }
+
     public String getFullName() {
         return fullName;
     }
